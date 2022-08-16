@@ -7,8 +7,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Liam',
-  tagline: '基于 React, 用于把 JS(ON) 转成页面的 JavaScript 库',
-  url: 'https://your-docusaurus-test-site.com',
+  tagline: '一个基于 React, 用于把 JS(ON) 和组件生成页面的 JavaScript 库',
+  url: 'https:liam-js.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -17,8 +17,8 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'liam-js', // Usually your GitHub org/user name.
-  projectName: 'site', // Usually your repo name.
-  deploymentBranch: 'liam-js.github.io',
+  projectName: 'liam-js.github.io', // Usually your repo name.
+  deploymentBranch: 'main',
   trailingSlash: false,
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -72,7 +72,7 @@ const config = {
         title: 'Liam',
         logo: {
           alt: 'Liam',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           {
@@ -82,6 +82,7 @@ const config = {
             label: '文档',
           },
           {to: '/blog', label: '博客', position: 'left'},
+          {to: 'https://liam-js.github.io/editor', label: '编辑器', position: 'left'},
           {
             href: 'https://github.com/liam-js/liam',
             label: 'GitHub',
@@ -106,15 +107,15 @@ const config = {
             items: [
               {
                 label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                href: 'https://stackoverflow.com/questions/tagged/liam',
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.gg/pkaXCFWRzD',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/chancedai',
               },
             ],
           },

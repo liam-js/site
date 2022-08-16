@@ -4,6 +4,9 @@ sidebar_position: 1
 
 # 开始
 
+Liam 是一个基于 [React](https://reactjs.org/) 的 Javascript 库，它可以把 JS(ON) 和组件结合在一起，生成页面。
+
+
 ## 模板代码
 一个最简单的页面模板代码，如下：
 ```html

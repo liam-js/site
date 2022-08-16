@@ -8,7 +8,7 @@ sidebar_position: 3
 |------	|------	|------	|------	|
 | type | 组件信息，[`Liam`](/docs/api)会通过它来获取到真实的组件 | react component &#124 promise instance  &#124 string	|  |
 | props | 组件属性	| object	| {} |
-| children | [`block`](/docs/block) &#124 [`block`](/docs/block)	|  |
+| children| 子节点 | [`block`](/docs/block) &#124 [`block`](/docs/block)[]	|  |
 | n | 用于标识 props 里哪些属性是 [`block`](/docs/block)，最终会渲染成一个节点（node） | string &#124 string[] |
 | r | 用于标识 props 里哪些属性是渲染函数，执行渲染后，会渲染成一个节点（node） | string &#124 string[] |
 | s | 用于标识该 [`block`](/docs/block) 依赖哪些全局状态，当这些状态改变时，会重新渲染该 [`block`](/docs/block) | string &#124 string[] |
